@@ -1,0 +1,88 @@
+body { 
+    background-color: rgb(10, 1, 27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+#grow {
+    display: flex;
+    height: 50vh;
+    width:900px;
+    border-radius: 10px;
+}
+
+#grow div {
+    /* flex: 3; */
+    /* border-radius: 5px; */
+}
+
+#grow .grow-text {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px 15px 30px;
+    background: rgba(47, 32, 71, 0.671);
+    font-family: Arial, sans-serif;
+    border-radius: 10px 0 0 10px;
+    width:500px;
+    /* width:400px; */
+}
+
+#grow .heading {
+    color: #fff;
+}
+
+.text-primary {
+    color: rgb(117, 60, 207);
+}
+
+.dom {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(179, 174, 174);
+}
+
+.dim {
+    font-size: 8px;
+    font-weight: 10;
+    color: rgb(179, 174, 174);
+}
+
+.figure {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    font-weight: lighter;
+    justify-content: space-between;
+    color: #fff;
+    font: Arial, sans-serif;
+}
+
+
+.grow-img {
+    background: url(../img/image-header-desktop.jpg) red no-repeat center center/cover;
+    border-radius: 0 10px 10px 0;
+    width:600px;
+    height: 100%;
+}
+
+.grow-img .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: hsl(277, 64%, 61%);
+    border-radius: 0 10px 10px 0;
+    opacity: 0.5;
+}
+
+
+
+/* 
+.box-container {
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+} */
